@@ -1,0 +1,128 @@
+@charset "UTF-8";
+/* Add your custom CSS declarations below  */
+
+/* Color Scheme
+terracotta: #8B5D41;
+pine: #555548;
+sage: #C5C4B2;
+pinkish: #D2BEB0;
+gray pink: #D0C6BC;
+gray:#E8E4E0;
+ */
+
+#logo {
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+ /* Navigation */
+ #navigation {
+ 	background-color: #555548; 
+ }
+
+.nav-link {
+	color: #C5C4B2;
+}
+
+ .active {
+ 	color:#E8E4E0;
+ }
+
+ .nav-link:hover {
+ 	color:#E8E4E0;
+ }
+
+ /* Button Link */
+ .btn-link {
+ 	color: #C5C4B2;
+ }
+
+ .btn-link:hover {
+ 	color:#E8E4E0;
+ 	text-decoration: none;
+ }
+
+ .btn-primary {
+ 	background-color: #8B5D41;
+ 	color: #E8E4E0;
+ }
+
+ .btn-primary:hover {
+ 	background-color: #D2BEB0;
+ }
+
+/* Fonts */
+h1,h2,h3,h4,h5,h6 {
+	font-family: Crimson Text, serif;
+}
+
+body {
+	font-family: Montserrat, sans-serif;
+	padding-left: 1vw;
+	padding-right: 1vw;
+}
+
+p {
+	padding-left: 5vw;
+	padding-right: 5vw;
+}
+
+/* Aside */
+aside {
+	display: flex;
+	justify-content: space-around;
+}
+
+/* Footer */
+footer {
+	background-color: #555548;
+	color: #C5C4B2;
+}
+
+/* Calendar for Events page */
+ul {
+	list-style-type: none;
+}
+
+#calendar {
+	padding: 2vw;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color:#8B5D41;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #E8E4E0;
+  text-align: center;
+}
+
+/* Days (1-30) */
+.days {
+  padding: 10px 0;
+  background: #8B5D41;
+  opacity: 0.8;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #E8E4E0;
+}
+
+/* Carousel on Menu Page */
+.carousel-caption {
+	background-color: #E8E4E099;
+	color: #8B5D41;
+	font-size: 5em;
+}
